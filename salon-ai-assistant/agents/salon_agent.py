@@ -28,7 +28,7 @@ class SalonAgent:
         # Tools
         self.tools = [
             Tool(name="KnowledgeBase", func=retrieve_context,
-                 description="Answer questions about services, prices, hours, and policies."),
+                 description="Answer questions about services, prices, hours, policies, locations, and addresses."),
             Tool(name="CheckAvailability",
                  func=lambda x: is_slot_available(*[i.strip() for i in x.split(',')]) if len(x.split(',')) == 3 else "Error: Input must be 'branch, date, time'",
                  description="Check slot availability. Input: branch, date (YYYY-MM-DD), time (HH:MM)."),
