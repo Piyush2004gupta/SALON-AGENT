@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // IMPORTANT: When deploying frontend to Vercel, change this to your Render backend URL.
     // Example: const API_URL = "https://your-render-app.onrender.com";
-    const API_URL = ""; 
+    const API_URL = "https://salon-backend-api.onrender.com"; 
 
     async function sendMessage() {
         const text = userInput.value.trim();
