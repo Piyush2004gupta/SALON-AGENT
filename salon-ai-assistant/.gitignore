@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+env/
+.venv/
+
+# Environment Variables
+.env
+
+# Credentials and Keys
+credentials.json
+*.json
+!package.json
+
+# Databases
+*.db
+*.sqlite3
+
+# IDEs
+.vscode/
+.idea/

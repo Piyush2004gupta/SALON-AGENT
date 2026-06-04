@@ -1,0 +1,320 @@
+# LuxeGlow Salon - Knowledge Base
+
+## Company Overview
+
+LuxeGlow Salon is a premium beauty and grooming chain with 5 branches across NCR. We provide hair, skin, spa, grooming, bridal, and wellness services.
+
+## Our Locations / Centers in India
+
+We have 5 salon centers (branches) located across NCR, India:
+- Center 1 / Branch 1: Noida — Sector 18, Noida, Uttar Pradesh 201301
+- Center 2 / Branch 2: Gurgaon — MG Road, Gurgaon, Haryana 122001
+- Center 3 / Branch 3: Delhi — Rajouri Garden, New Delhi 110027
+- Center 4 / Branch 4: Faridabad — Sector 15, Faridabad, Haryana 121007
+- Center 5 / Branch 5: Ghaziabad — Raj Nagar, Ghaziabad, Uttar Pradesh 201002
+
+---
+
+# Branch Information
+
+## Branch 1: Noida
+
+Address: Sector 18, Noida, Uttar Pradesh 201301
+
+Phone: +91-9876543210
+
+Working Hours:
+Monday - Sunday: 9:00 AM - 9:00 PM
+
+Parking: Available
+
+WiFi: Available
+
+Services Available:
+
+* Haircut
+* Hair Spa
+* Hair Coloring
+* Keratin Treatment
+* Facial
+* Beard Styling
+* Manicure
+* Pedicure
+
+---
+
+## Branch 2: Gurgaon
+
+Address: MG Road, Gurgaon, Haryana 122001
+
+Phone: +91-9876543211
+
+Working Hours:
+Monday - Sunday: 10:00 AM - 9:00 PM
+
+Parking: Available
+
+WiFi: Available
+
+Services Available:
+
+* Haircut
+* Hair Spa
+* Hair Coloring
+* Bridal Makeup
+* Facial
+* Beard Styling
+* Manicure
+* Pedicure
+
+---
+
+## Branch 3: Delhi
+
+Address: Rajouri Garden, New Delhi 110027
+
+Phone: +91-9876543212
+
+Working Hours:
+Monday - Sunday: 9:00 AM - 10:00 PM
+
+Parking: Available
+
+WiFi: Available
+
+Services Available:
+
+* Haircut
+* Hair Spa
+* Hair Coloring
+* Keratin Treatment
+* Bridal Makeup
+* Facial
+* Beard Styling
+
+---
+
+## Branch 4: Faridabad
+
+Address: Sector 15, Faridabad, Haryana 121007
+
+Phone: +91-9876543213
+
+Working Hours:
+Monday - Sunday: 9:00 AM - 8:00 PM
+
+Parking: Available
+
+WiFi: Available
+
+Services Available:
+
+* Haircut
+* Hair Spa
+* Facial
+* Beard Styling
+* Manicure
+* Pedicure
+
+---
+
+## Branch 5: Ghaziabad
+
+Address: Raj Nagar, Ghaziabad, Uttar Pradesh 201002
+
+Phone: +91-9876543214
+
+Working Hours:
+Monday - Sunday: 9:00 AM - 9:00 PM
+
+Parking: Available
+
+WiFi: Available
+
+Services Available:
+
+* Haircut
+* Hair Spa
+* Hair Coloring
+* Facial
+* Beard Styling
+* Manicure
+* Pedicure
+
+---
+
+# Service Pricing
+
+## Men's Services
+
+Haircut: ₹300
+
+Premium Haircut: ₹500
+
+Beard Styling: ₹200
+
+Hair Wash: ₹150
+
+Hair Spa: ₹1200
+
+Hair Coloring: ₹1800
+
+Keratin Treatment: ₹5000
+
+---
+
+## Women's Services
+
+Haircut: ₹700
+
+Hair Spa: ₹1800
+
+Hair Coloring: ₹2500
+
+Keratin Treatment: ₹7000
+
+Facial (Basic): ₹1000
+
+Facial (Premium): ₹2500
+
+Bridal Makeup: ₹15000
+
+---
+
+## Hand & Foot Care
+
+Manicure: ₹600
+
+Pedicure: ₹800
+
+Luxury Manicure: ₹1200
+
+Luxury Pedicure: ₹1500
+
+---
+
+# Appointment Policy
+
+Appointments can be booked online, through WhatsApp, or by phone.
+
+Walk-ins are accepted subject to availability.
+
+Customers should arrive at least 10 minutes before the scheduled appointment.
+
+Late arrivals of more than 15 minutes may require rescheduling.
+
+---
+
+# Cancellation Policy
+
+Appointments can be cancelled up to 24 hours before the appointment time.
+
+Cancellations made within 24 hours may incur a cancellation fee.
+
+No-show appointments may be charged 50% of the service fee.
+
+---
+
+# Refund Policy
+
+Refund requests are accepted within 7 days.
+
+Refunds are processed within 5-7 business days.
+
+Refunds are not available for completed services unless approved by management.
+
+---
+
+# Membership Plans
+
+Silver Membership
+
+Annual Fee: ₹2000
+
+Benefits:
+
+* 5% Discount on all services
+
+---
+
+Gold Membership
+
+Annual Fee: ₹5000
+
+Benefits:
+
+* 10% Discount on all services
+* Priority Booking
+
+---
+
+Platinum Membership
+
+Annual Fee: ₹10000
+
+Benefits:
+
+* 15% Discount on all services
+* Priority Booking
+* Free Hair Spa every 6 months
+
+---
+
+# Frequently Asked Questions
+
+Q: Do you provide parking?
+
+A: Yes, parking is available at all branches.
+
+Q: Do you accept walk-ins?
+
+A: Yes, subject to availability.
+
+Q: Are appointments mandatory?
+
+A: No, but appointments are recommended.
+
+Q: Which payment methods are accepted?
+
+A: UPI, Credit Card, Debit Card, Net Banking, and Cash.
+
+Q: Can I choose my stylist?
+
+A: Yes, based on stylist availability.
+
+Q: Do you offer bridal packages?
+
+A: Yes, bridal packages are available at selected branches.
+
+Q: Is WiFi available?
+
+A: Yes, complimentary WiFi is available at all branches.
+
+---
+
+# Availability Rules
+
+Each stylist can handle one appointment slot at a time.
+
+Available slots are generated dynamically from the booking system.
+
+If a slot is already booked, it is marked unavailable.
+
+The chatbot should always check the availability tool before confirming an appointment.
+
+---
+
+# Booking Rules
+
+The chatbot must never confirm a booking without checking availability.
+
+The chatbot must collect:
+
+* Customer Name
+* Phone Number
+* Branch
+* Service
+* Date
+* Time
+
+Only after successful availability verification should the booking be confirmed.
