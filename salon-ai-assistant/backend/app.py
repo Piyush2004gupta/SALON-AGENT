@@ -3,7 +3,9 @@ from agents.salon_agent import SalonAgent
 import sys
 import os
 
-app = Flask(__name__)
+app = Flask(__name__, 
+            template_folder='../frontend/templates', 
+            static_folder='../frontend/static')
 
 # Initialize the agent once so it maintains memory
 try:
