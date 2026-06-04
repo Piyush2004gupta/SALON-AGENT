@@ -1,4 +1,5 @@
 from flask import Flask, render_template, request, jsonify
+from flask_cors import CORS
 from agents.salon_agent import SalonAgent
 import sys
 import os
@@ -6,6 +7,9 @@ import os
 app = Flask(__name__, 
             template_folder='../frontend/templates', 
             static_folder='../frontend/static')
+
+# Enable CORS for all routes so Vercel can connect
+CORS(app)
 
 # Initialize the agent once so it maintains memory
 try:

@@ -51,6 +51,10 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
+    // IMPORTANT: When deploying frontend to Vercel, change this to your Render backend URL.
+    // Example: const API_URL = "https://your-render-app.onrender.com";
+    const API_URL = ""; 
+
     async function sendMessage() {
         const text = userInput.value.trim();
         if (!text) return;
@@ -63,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
         addTypingIndicator();
         
         try {
-            const response = await fetch("/chat", {
+            const response = await fetch(`${API_URL}/chat`, {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
