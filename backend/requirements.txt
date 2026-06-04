@@ -3,3 +3,10 @@ langchain-openai
 langchain-community
 faiss-cpu
 python-dotenv
+flask
+flask-cors
+gunicorn
+gspread
+google-auth
+google-auth-oauthlib
+google-auth-httplib2

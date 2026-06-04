@@ -8,13 +8,24 @@ SHEET_NAME = "Salon Bookings"
 
 BUSINESS_HOURS = [f"{hour:02d}:00" for hour in range(10, 19)]
 
+import json
+
 # Authenticate and connect to Google Sheets
 def get_sheet():
-    if not os.path.exists(CREDS_PATH):
-        raise FileNotFoundError(f"Missing {CREDS_PATH}. Please follow the setup guide to download it.")
-        
     scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-    creds = ServiceAccountCredentials.from_json_keyfile_name(CREDS_PATH, scope)
+    creds_json_str = os.environ.get("GOOGLE_CREDENTIALS_JSON")
+    
+    if creds_json_str:
+        try:
+            creds_dict = json.loads(creds_json_str)
+            creds = ServiceAccountCredentials.from_json_keyfile_dict(creds_dict, scope)
+        except json.JSONDecodeError:
+            raise ValueError("GOOGLE_CREDENTIALS_JSON environment variable is not valid JSON.")
+    else:
+        if not os.path.exists(CREDS_PATH):
+            raise FileNotFoundError(f"Missing {CREDS_PATH}. Please follow the setup guide to download it.")
+        creds = ServiceAccountCredentials.from_json_keyfile_name(CREDS_PATH, scope)
+        
     client = gspread.authorize(creds)
     return client.open(SHEET_NAME).sheet1
 
