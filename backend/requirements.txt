@@ -3,9 +3,6 @@ langchain-openai<0.3.0
 langchain-community<0.3.0
 faiss-cpu
 python-dotenv
-flask
-flask-cors
-gunicorn
 gspread
 google-auth
 google-auth-oauthlib
